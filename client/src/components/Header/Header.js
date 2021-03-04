@@ -3,7 +3,7 @@ import "./styles.css";
 
 const Header = ({children}) => {
     return (
-        <header className="style">
+        <header className="header">
             {children}
         </header>
     );
