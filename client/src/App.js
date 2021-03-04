@@ -1,16 +1,17 @@
 import './App.css';
 import ContainerComp from './components/Container/ContainerComp';
+import Header from './components/Header/Header';
 import NavBar from './components/Nav/NavBar';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hey there!</h1>
-      <h1>sasdad</h1>
-      <ContainerComp>
+      <Header>
         <NavBar />
+      </Header>
+      <ContainerComp>
+        <h1>Testing!</h1>
       </ContainerComp>
-      
     </div>
   );
 }
