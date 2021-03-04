@@ -1,4 +1,5 @@
 import './App.css';
+import ContainerComp from './components/Container/ContainerComp';
 import NavBar from './components/Nav/NavBar';
 
 function App() {
@@ -6,7 +7,10 @@ function App() {
     <div className="App">
       <h1>Hey there!</h1>
       <h1>sasdad</h1>
-      <NavBar />
+      <ContainerComp>
+        <NavBar />
+      </ContainerComp>
+      
     </div>
   );
 }
