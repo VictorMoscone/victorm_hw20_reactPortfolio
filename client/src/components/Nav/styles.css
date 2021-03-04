@@ -1,3 +1,11 @@
-.textColor {
+.text {
     color: #17252A;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow:
+    3px 3px 0 #FEFFFF,
+  -1px -1px 0 #FEFFFF,  
+   1px -1px 0 #FEFFFF,
+   -1px 1px 0 #FEFFFF,
+    1px 1px 0 #FEFFFF;
 }
