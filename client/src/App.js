@@ -1,8 +1,10 @@
+import { Col, Row } from 'react-bootstrap';
 import './App.css';
 import ContainerComp from './components/Container/ContainerComp';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import NavBar from './components/Nav/NavBar';
+import Project from './components/Project/Project';
 
 function App() {
   return (
@@ -11,7 +13,14 @@ function App() {
         <NavBar />
       </Header>
       <ContainerComp>
-        <h1>Testing!</h1>
+        <Row>
+          <Col md={6}>
+            <Project />
+          </Col>
+          <Col md={6}>
+            <Project />
+          </Col>
+        </Row>
       </ContainerComp>
       <Footer />
     </div>
