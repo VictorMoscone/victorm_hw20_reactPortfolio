@@ -1,20 +1,18 @@
 import React from 'react'
-import { Card, Button } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const Project = () => {
+const Project = (props) => {
     return (
         <div>
-            <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
-                <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+            <Card className="bg-dark text-white my-2">
+                <Card.Img src={props.imageSrc} alt={props.imgName} />
+                <Card.ImgOverlay>
+                    <Card.Title>{props.projectTitle}</Card.Title>
                     <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                    {props.projectDesc}
                     </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
+                </Card.ImgOverlay>
             </Card>
         </div>
     );
