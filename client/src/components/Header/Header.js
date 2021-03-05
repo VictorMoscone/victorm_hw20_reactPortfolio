@@ -6,13 +6,13 @@ import "./styles.css";
 
 const Header = () => {
     return (
-        <div className="header">
+        <header className="header">
             <ContainerComp >
                 <Row>
                     <NavBar />
                 </Row>
             </ContainerComp>
-        </div>
+        </header>
     );
 };
 
