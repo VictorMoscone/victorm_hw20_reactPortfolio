@@ -12,14 +12,7 @@ function App() {
 
   return (
     <div className="App">
-      <ContainerComp>
-        <Row>
-          <Header>
-            <NavBar />
-          </Header>
-        </Row>
-      </ContainerComp>
-
+      <Header />
       <Home />
 
       <ContainerComp>
