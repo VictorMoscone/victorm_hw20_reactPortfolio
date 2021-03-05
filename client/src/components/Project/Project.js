@@ -6,13 +6,13 @@ const Project = (props) => {
     return (
         <div>
             <Card className="bg-dark text-white my-2">
-                <Card.Img src={props.imageSrc} alt={props.imgName} />
-                <Card.ImgOverlay>
+                <Card.Img variant="top" src={props.imageSrc} alt={props.imgName} />
+                <Card.Body>
                     <Card.Title>{props.projectTitle}</Card.Title>
                     <Card.Text>
-                    {props.projectDesc}
+                        {props.projectDesc}
                     </Card.Text>
-                </Card.ImgOverlay>
+                </Card.Body>
             </Card>
         </div>
     );
