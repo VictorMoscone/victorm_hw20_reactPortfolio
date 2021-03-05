@@ -6,7 +6,9 @@ const Project = (props) => {
     return (
         <div>
             <Card className="bg-dark text-white my-2" style={{ height: '35rem' }}>
-                <Card.Img variant="top" src={props.imageSrc} alt={props.imgName} />
+                <a href={props.github} target="_blank">
+                    <Card.Img variant="top" src={props.imageSrc} alt={props.imgName} />
+                </a>
                 <Card.Body>
                     <Card.Title>{props.projectTitle}</Card.Title>
                     <Card.Text>
