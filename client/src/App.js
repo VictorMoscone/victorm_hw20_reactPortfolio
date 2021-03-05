@@ -9,6 +9,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 
 function App() {
+
   return (
     <div className="App">
       <ContainerComp>
@@ -19,7 +20,7 @@ function App() {
         </Row>
       </ContainerComp>
 
-      <About />
+      <Home />
 
       <ContainerComp>
         <Row>

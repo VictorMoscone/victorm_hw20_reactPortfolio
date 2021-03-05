@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div>
             <ContainerComp>
-                
+                <h1>Hello</h1>
             </ContainerComp>
         </div>
     );
