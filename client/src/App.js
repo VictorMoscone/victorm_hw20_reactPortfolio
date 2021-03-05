@@ -10,9 +10,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
-      <Header>
-        <NavBar />
-      </Header>
+      <ContainerComp>
+        <Header>
+          <NavBar />
+        </Header>
+      </ContainerComp>
       <ContainerComp>
         <Row className="justify-content-md-center">
           <Col xs lg={3}>
@@ -66,6 +68,6 @@ function App() {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;
