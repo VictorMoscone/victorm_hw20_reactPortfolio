@@ -11,61 +11,77 @@ function App() {
   return (
     <div className="App">
       <ContainerComp>
-        <Header>
-          <NavBar />
-        </Header>
+        <Row>
+          <Header>
+            <NavBar />
+          </Header>
+        </Row>
       </ContainerComp>
+
       <ContainerComp>
         <Row className="justify-content-md-center">
           <Col xs lg={3}>
             <Project 
               imageSrc="https://cdn.costumewall.com/wp-content/uploads/2019/12/Jotaro-Kujo.jpg" 
               imgName="Jotaro"
-              projectTitle="Homework 12"
-              projectDesc="Example"/>
+              projectTitle="Project 2 - Inhumans"
+              projectDesc="This was a project that required us to build an application using MySQL and CRUD functionality. My particular repo is an older version, in which the code I worked on was visible."
+              github="https://github.com/VictorMoscone/inhumans"/>
           </Col>
           <Col xs lg={3}>
             <Project 
-                imageSrc="https://cdn.costumewall.com/wp-content/uploads/2019/12/Jotaro-Kujo.jpg" 
-                imgName="Jotaro"
-                projectTitle="Homework 12"
-                projectDesc="Example"/>
+              imageSrc="https://cdn.costumewall.com/wp-content/uploads/2019/12/Jotaro-Kujo.jpg" 
+              imgName="Jotaro"
+              projectTitle="Homework 13 - Eat-Da-Burger"
+              projectDesc="You're not you when you're hungry. Here, eat-da-burger. This app allows users to create their own burger menu and the devour each burger on the menu. Yum!"
+              github="https://github.com/VictorMoscone/victorm_hw13_burger"/>
           </Col>
         </Row>
+        
         <Row className="justify-content-md-center">
           <Col xs lg={3}>
             <Project 
               imageSrc="https://cdn.costumewall.com/wp-content/uploads/2019/12/Jotaro-Kujo.jpg" 
               imgName="Jotaro"
               projectTitle="Homework 12"
-              projectDesc="Example"/>
+              projectDesc="Example"
+              github="https://github.com/VictorMoscone/inhumans"/>
           </Col>
           <Col xs lg={3}>
             <Project 
-                imageSrc="https://cdn.costumewall.com/wp-content/uploads/2019/12/Jotaro-Kujo.jpg" 
-                imgName="Jotaro"
-                projectTitle="Homework 12"
-                projectDesc="Example"/>
+              imageSrc="https://cdn.costumewall.com/wp-content/uploads/2019/12/Jotaro-Kujo.jpg" 
+              imgName="Jotaro"
+              projectTitle="Homework 12"
+              projectDesc="Example"
+              github="https://github.com/VictorMoscone/inhumans"/>
           </Col>
         </Row>
+
         <Row className="justify-content-md-center">
           <Col xs lg={3}>
             <Project 
               imageSrc="https://cdn.costumewall.com/wp-content/uploads/2019/12/Jotaro-Kujo.jpg" 
               imgName="Jotaro"
               projectTitle="Homework 12"
-              projectDesc="Example"/>
+              projectDesc="Example"
+              github="https://github.com/VictorMoscone/inhumans"/>
           </Col>
           <Col xs lg={3}>
             <Project 
-                imageSrc="https://cdn.costumewall.com/wp-content/uploads/2019/12/Jotaro-Kujo.jpg" 
-                imgName="Jotaro"
-                projectTitle="Homework 12"
-                projectDesc="Example"/>
+              imageSrc="https://cdn.costumewall.com/wp-content/uploads/2019/12/Jotaro-Kujo.jpg" 
+              imgName="Jotaro"
+              projectTitle="Homework 12"
+              projectDesc="Example"
+              github="https://github.com/VictorMoscone/inhumans"/>
           </Col>
         </Row>
       </ContainerComp>
-      <Footer />
+
+      <ContainerComp>
+        <Row>
+          <Footer />
+        </Row>
+      </ContainerComp>
     </div>
   );
 };

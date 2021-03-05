@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const ContainerComp = ({children}) => {
     return (
-        <Container fluid>
+        <Container fluid="true">
             {children}
         </Container>
     );
