@@ -6,6 +6,7 @@ import Header from './components/Header/Header';
 import NavBar from './components/Nav/NavBar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './pages/Home';
+import About from './pages/About';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         </Row>
       </ContainerComp>
 
-      <Home />
+      <About />
 
       <ContainerComp>
         <Row>
