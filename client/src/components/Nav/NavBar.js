@@ -7,7 +7,7 @@ import "./styles.css";
 const NavBar = () => {
     return (
         <div>
-            <Nav className="justify-content-center" activeKey="/home">
+            <Nav activeKey="/home">
                 <Nav.Item>
                     <Nav.Link href="/home" className="text">Home</Nav.Link>
                 </Nav.Item>

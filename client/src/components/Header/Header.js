@@ -6,12 +6,10 @@ import "./styles.css";
 
 const Header = () => {
     return (
-        <div>
-            <ContainerComp>
+        <div className="header">
+            <ContainerComp >
                 <Row>
-                    <header className="header">
-                        <NavBar />
-                    </header>
+                    <NavBar />
                 </Row>
             </ContainerComp>
         </div>
